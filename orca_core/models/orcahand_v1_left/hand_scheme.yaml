@@ -1,0 +1,94 @@
+gc_tendons:
+  'left_wrist': {}
+  'left_thumb_abd': {}
+  'left_thumb_mcp': {}
+  'left_thumb_pip': {}
+  'left_thumb_dip': {}
+  'left_index_abd': {}
+  'left_index_mcp': {}
+  'left_index_pip': {}
+  'left_middle_abd': {}
+  'left_middle_mcp': {}
+  'left_middle_pip': {}
+  'left_ring_abd': {}
+  'left_ring_mcp': {}
+  'left_ring_pip': {}
+  'left_pinky_abd': {}
+  'left_pinky_mcp': {}
+  'left_pinky_pip': {}
+
+gc_tendons_to_joint_ids:
+    'left_wrist': 'wrist'
+    'left_thumb_abd': 'thumb_abd'
+    'left_thumb_mcp': 'thumb_mcp'
+    'left_thumb_pip': 'thumb_pip'
+    'left_thumb_dip': 'thumb_dip'
+    'left_index_abd': 'index_abd'
+    'left_index_mcp': 'index_mcp'
+    'left_index_pip': 'index_pip'
+    'left_middle_abd': 'middle_abd'
+    'left_middle_mcp': 'middle_mcp'
+    'left_middle_pip': 'middle_pip'
+    'left_ring_abd': 'ring_abd'
+    'left_ring_mcp': 'ring_mcp'
+    'left_ring_pip': 'ring_pip'
+    'left_pinky_abd': 'pinky_abd'
+    'left_pinky_mcp': 'pinky_mcp'
+    'left_pinky_pip': 'pinky_pip'
+
+
+finger_to_tip:
+  thumb: left_thumb_fingertip
+  index: left_index_fingertip
+  middle: left_middle_fingertip
+  ring: left_ring_fingertip
+  pinky: left_pinky_fingertip
+
+finger_to_base:
+  thumb: left_thumb_mp
+  index: left_index_mp
+  middle: left_middle_mp
+  ring: left_ring_mp
+  pinky: left_pinky_mp
+
+wrist_name: left_palm
+
+gc_limits_lower : [
+  -50.0,    # wrist
+  -20.0,    # thumb_abd
+  -50.0,    # thumb_mcp
+  -12.0,    # thumb_pip
+  -20.0,    # thumb_dip
+  -37.0,    # index_abd
+  -20.0,    # index_mcp
+  -20.0,    # index_pip
+  -37.0,    # middle_abd
+  -20.0,    # middle_mcp
+  -20.0,    # middle_pip
+  -37.0,    # ring_abd
+  -20.0,    # ring_mcp
+  -20.0,    # ring_pip
+  -37.0,    # pinky_abd
+  -20.0,    # pinky_mcp
+  -20.0,    # pinky_pip
+]
+
+gc_limits_upper : [
+  30.0,     # wrist
+  42.0,     # thumb_abd
+  50.0,     # thumb_mcp
+  108.0,    # thumb_pip
+  112.0,    # thumb_dip
+  37.0,     # index_abd
+  95.0,     # index_mcp
+  108.0,    # index_pip
+  37.0,     # middle_abd
+  91.0,     # middle_mcp
+  107.0,    # middle_pip
+  37.0,     # ring_abd
+  91.0,     # ring_mcp
+  107.0,    # ring_pip
+  37.0,     # pinky_abd
+  98.0,     # pinky_mcp
+  108.0,    # pinky_pip
+]
