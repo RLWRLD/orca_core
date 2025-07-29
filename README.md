@@ -48,7 +48,17 @@ To get started with Orca Core, follow these steps:
     python scripts/neutral.py orca_core/models/orcahand_v1_right
     ```
 
-6. **Example usage: test.py**
+6. **AVP 텔레옵 데모**
+
+    우선 한 손만 제어하도록 했습니다. 실행 전 스크립트 안에 `MODEL_PATH`와 `avp_ip`를 확인해 주세요.  
+
+    그리고 AVP의 tracking streamer를 먼저 실행하세요.
+
+    ```sh
+    python ret_demo.py
+    ```
+
+7. **Example usage: test.py**
 
     Here is a minimal example script you can use to test your setup:
 
